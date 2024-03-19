@@ -15,7 +15,7 @@ namespace UdpChat
         {
             foreach (NetworkInterface ni in NetworkInterface.GetAllNetworkInterfaces())
             {
-                if (ni.Name.Equals("Wi-Fi"))
+                if (ni.Name.Equals("WiFi"))
                 {
                     Console.WriteLine(ni.Name);
 
